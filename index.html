@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Take Your Candy :)</title>
+    <script>
+        var candy = 0;
+        function candy_clicked(){
+            candy++;
+            document.querySelector('#candy').innerHTML = "You Have "+candy+" candy"
+        }
+    </script>
+</head>
+<body>
+    <h1 id="candy">You Have 0 Candy</h1>
+    <button onclick="candy_clicked()">Get 1 Candy :)</button>
+</body>
+</html>
